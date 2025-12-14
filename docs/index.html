@@ -30,7 +30,7 @@
 					</section>
 				</section>
 				<section>
-					<section><h2>Install Linux Mint</h2></section>
+					<section><h2><a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html" target="_blank">Installation Guide</a> for Linux Mint</h2></section>
 					<section>
 						<h3>Bootable USB stick on Windows</h3>
 						<ul>
@@ -41,7 +41,7 @@
 						</ul>
 					</section>
 					<section>
-						<h3>USB boot stick on macOS</h3>
+						<h2>USB boot stick on macOS</h2>
 						<ul>
 							<li>Use <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/burn.html" target="_blank">balenaEtcher</a> to create a bootable USB stick from the Linux Mint ISO file.</li>
 							<li>Restart your Mac and hold down the Option (⌥) key during startup to access the boot menu.</li>
@@ -51,7 +51,64 @@
 					</section>
 				</section>
 				<section>
-					<h3>Install software on Mint</h3>
+					<section>
+						<h2>Install software on Linux Mint</h2>
+						<ol>
+							<li>Open the "Software Manager" from the menu.</li>
+							<li>Browse or search for the software you want to install.</li>
+							<li>Select the software and click "Install".</li>
+							<li>Authenticate with your password if prompted.</li>
+							<li>Wait for the installation to complete.</li>
+						</ol>
+					</section>
+					<section>
+						<h3>1. Software Manager</h3>
+						<img src="assets/1_start_menu.png" alt="Linux Mint Start Menu" height="240px" />
+						<img src="assets/2_software_manager_icon.png" alt="Open Software Manager icon" height="240px" />
+						<img src="assets/3_software_manager.png" alt="Software Manager" height="240px" />
+					</section>
+					<section>
+						<h3>2. Browse or search</h3>
+						<img src="assets/4_software_manager_categories.png" alt="Software Manager categories" height="240px" />
+						<img src="assets/5_software_manager_search.png" alt="Software Manager search" height="240px" />
+					</section>
+					<section>
+						<h3>3. Select and click "Install"</h3>
+						<img src="assets/6_software_detail.png" alt="Software selection" height="240px" />
+						<img src="assets/7_software_detail_install.png" alt="Software installation" height="240px" />
+						<img src="assets/8_software_dependencies.png" alt="Accept software dependencies" height="240px" />
+						<img src="assets/9_remove_software.png" alt="Remove software" height="240px" />
+					</section>
+				</section>
+				<section>
+					<section><h2>Advantage about Linux Mint and learnings</h2></section>
+					<section>
+						<h3>Linux Mint installlation</h3>
+						<ul>
+							<li>Linux Mint is usage-friendly and easy to navigate, making it a great choice for beginners.</li>
+							<li>Linux Mint is a great alternative to <a href="https://de.wikipedia.org/wiki/Propriet%C3%A4r" target="_blank">proprietary</a> operating systems, promoting freedom and <a href="https://www.gnu.org/philosophy/free-sw.html" target="_blank">open-source</a> software.</li>
+							<li>The customization options allow users to tailor their desktop environment to their preferences.</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Software Management</h3>
+						<ul>
+							<li>The Software Manager provides a wide range of applications that can be easily installed and managed.</li>
+							<li>Linux Mint offers a stable and reliable operating system with regular updates and support from the community.</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>References</h2>
+					<ul>
+						<li>PC/ Linux Stammtisch <a href="https://www.onderwerch.ch" target="_blank">onderwerch.ch</a></li>
+						<li>Linux Mint <a href="https://linuxmint.com/" target="_blank">official website</a></li>
+						<li>Linux Mint <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html" target="_blank">Installation Guide</a></li>
+						<li><a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a> official website</li>
+						<li><a href="https://www.debian.org/" target="_blank">Debian</a> official website</li>
+						<li><a href="https://www.gnu.org/philosophy/free-sw.html" target="_blank">Free Software Philosophy</a></li>
+						<li><a href="https://balena.io/etcher/" target="_blank">balenaEtcher official website</a></li>
+					</ul>
 				</section>
 			</div>
 		</div>
@@ -66,6 +123,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
