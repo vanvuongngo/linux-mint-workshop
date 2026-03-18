@@ -12,6 +12,9 @@
   <li>Topic of the Linux-/ PC-Stammtisch <a href="https://onderwerch.ch/2025/11/linux-pc-stammtisch-13-11-25/">2025/11/13</a> - hosted by <a href="https://onderwerch.ch/">Onderwerch</a> (Gemeinsames Lernen, austauschen, gegenseitiges helfen).</li>
 </ul>
 
+
+<img src="docs/assets/linux-mint.png" alt="Linux Mint website" />
+
 ---
 <div align="right">
   MIT licensed | Copyright © 2026 <a href="https://github.com/vanvuongngo/">Van Vuong Ngo</a>
